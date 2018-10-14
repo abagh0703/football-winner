@@ -82,7 +82,7 @@ def combine_classifiers(classifiers, x_test, y_test, y_multi):
         model_preds_2 = model.predict(x_test)
         predictions = np.concatenate((predictions, model_preds), axis=1)
     
-    predictions = predictions - [[0, 0, .1]]
+    predictions = predictions - [[0, 0, 0]]
     pred = np.argmax(predictions, axis=1).reshape(-1,1)  
     
     comp = np.concatenate((y_multi, pred, predictions), axis=1)
