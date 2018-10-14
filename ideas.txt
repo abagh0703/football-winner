@@ -1,0 +1,16 @@
+- similarity index for teams 
+- de-skewing classes by having 1/3 - 1/3 - 1/3
+- multiplicative features
+- neural net
+- incorporating parts of the last season for early games
+- betting odds
+- fifa rankings for teams
+- fifa rankings for players
+- recent results against each other
+- home/away form
+
+more complex features
+- defensive and offensive records
+- formation tendencies
+- defensive and offensive records
+- 
