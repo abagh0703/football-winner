@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import confusion_matrix
 
-table = np.genfromtxt("cum_rec_pct.csv", delimiter=",")
+table = np.genfromtxt("data/cum_rec_pct.csv", delimiter=",")
 X = table[1:,-6:]
 y = table[1:, 6:7]
 
