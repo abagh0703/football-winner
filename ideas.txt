@@ -13,4 +13,6 @@ more complex features
 - defensive and offensive records
 - formation tendencies
 - defensive and offensive records
-- 
+
+- If betting odds are very good: do a model that predicts when betting odds will be wrong
+
