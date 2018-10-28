@@ -1,24 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct  3 17:51:03 2018
+Created on Tue Oct 23 01:51:03 2018
 
-@author: Victor Odouard and Ankita Pannu 
+@author: victorodouard
 """
 
-import numpy as np
-from sklearn.linear_model import LogisticRegression
-from sklearn.cross_validation import train_test_split
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import accuracy_score
-
-"""
-Model Parameters
-
-"""
-HEADER_ROWS = [0, 1]
-FEATURE_COLS = list(range(18, 24))
-LABEL_COLS = [6, 7, 8]
+HEADER_ROWS = [0]
+FEATURE_COLS = list(range(76, 106))
+LABEL_COLS = [7, 8, 9]
 
 
 
@@ -26,18 +16,21 @@ LABEL_COLS = [6, 7, 8]
 
 def import_and_sort(heads, feats, label):
     # import dataset and delete header rows
-    table = np.genfromtxt("data/cum_rec.csv", delimiter=",")
-    table = np.delete(table, heads, axis=0)
+    table = np.genfromtxt("data/2008-2018-pct.csv", delimiter=",")
+    table = np.delete(table, [0], axis=0)
     
+    print(table)
     # take feature columns for X and label columns for y
     X = table[:, feats]
+    print(X)
     
     y_list = []
     
     for label in LABEL_COLS: 
         y_list.append(table[:, label])
 
-    
+    print(np.isnan(X).any())
+    print(np.isnan(y_list).any())
     return X, y_list, table
     
 
@@ -96,7 +89,7 @@ if __name__ == "__main__":
     X, y_list, table = import_and_sort(HEADER_ROWS, FEATURE_COLS, LABEL_COLS)  
     y_win, y_tie, y_loss = y_list
    
-    y_multi = table[:,5:6]
+    y_multi = table[:,6:7]
     
     classifiers = [] 
     
@@ -108,9 +101,3 @@ if __name__ == "__main__":
     classifiers.append(train(X_tr, y_win_tr))
         
     combine_classifiers(classifiers, X_te, [y_loss_te, y_tie_te, y_win_te], y_multi_te)
-    
-        
-        
-    
-    
-    
