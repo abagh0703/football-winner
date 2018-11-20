@@ -1,0 +1,12 @@
+{% block header %}
+  <h1>{% block title %}Test Server!{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <h2>Input your value below and the new page will display this value.</h2>
+  <form method="post">
+    <label for="input">Input value: </label>
+    <input name="input" id="input" required>
+    <input type="submit" value="Submit">
+  </form>
+{% endblock %}
