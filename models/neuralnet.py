@@ -4,8 +4,9 @@
 Created on Sun Nov 11 15:19:54 2018
 
 Neural net that fits data based on accumulated and differentiated features in base_data.
-Maximum training accuracy : 61.3% for (33, 40) neural net
+Maximum training accuracy : 62.6% for (45, 49) neural net
 Maximum test accuracy: 54.6% for (1, 25) neural net
+
 @author: victorodouard
 """
 

@@ -8,7 +8,7 @@ This script is used to concatenate the various csv files from the different prem
 """
 import pandas as pd 
 
-years = [format(i, "02") for i in range(8,20)]
+years = [format(i, "02") for i in range(0,20)]
 
 dfs = []
 
@@ -18,7 +18,7 @@ for i, y in enumerate(years):
     if i == len(years) - 1:
         break
     
-    new_df = pd.read_csv("data/20{0}-20{1}.csv".format(years[i], years[i + 1]))
+    new_df = pd.read_csv("../data/20{0}-20{1}.csv".format(years[i], years[i + 1]))
     
     new_column_headers = new_df.columns.values
     print(column_headers == new_column_headers)
