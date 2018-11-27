@@ -21,11 +21,11 @@ def register():
         Input something in the box and click "submit". The new screen rendered is the input
         (demonstrating use of request.form)."""
     if request.method == 'POST':
-        
+
         """
         X must be an array of shape (x, 23), where x is the number of games and 23 is the number of features we have
         for each game. The features must be in order. They are:
-            
+
             1. Average home win probability given by betting odds (1 / home-winodds)
             2. Average draw probability given by betting odds (1 / draw-odds)
             3. Average away win probability given by betting odds (1 / away-win-odds)
@@ -41,26 +41,26 @@ def register():
             13. Away last-20 win percentage (going into the last season)
             14. Away last-20 draw percentage (going into the last season)
             15. Away last-20 loss percentage (going into the last season)
-            16. home season goals scored/game 
+            16. home season goals scored/game
             17. away season goals scored/game
-            18. home season goals conceded/game 
+            18. home season goals conceded/game
             19. away season goals conceded/game
             20. home last-20 goals scored/game
             21. away last-20 goals scored/game
             22. home last-20 goals conceded/game
             23. away last-20 goals conceded/game
-     
+
         The following is a placeholder X
         """
-        
+
         X = np.zeros((1, 23))
-        
+
         # loading pickled model
         with open("model.pkl", "rb") as f:
             clf = pickle.load(f)
-            
-        pred = clf2.predict(X)
-        
+
+        pred = clf.predict(X)
+
         input = request.form['input']
         return(input)
     else:
