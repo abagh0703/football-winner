@@ -61,9 +61,9 @@ new_array = np.concatenate((pred, y_test), axis=1)
             
 """
 for i in range(1, 50):
-    for j in range(1, 50):
+    for jsonData in range(1, 50):
         clf = MLPClassifier(solver='lbfgs', alpha=1e-5,
-                            hidden_layer_sizes=(i,j), random_state=1)
+                            hidden_layer_sizes=(i,jsonData), random_state=1)
           
         
         clf.fit(X_train, y_train)
@@ -74,11 +74,11 @@ for i in range(1, 50):
         if score_test > max_score:
             max_score = score_test
             max_i = i
-            max_j = j
+            max_j = jsonData
         if score_train > max_score_train:
             max_score_train = score_train
             max_i_train = i
-            max_j_train = j
+            max_j_train = jsonData
             
         print("max train: ", max_score_train, max_i_train, max_j_train)
         print("max: ", max_score, max_i, max_j)

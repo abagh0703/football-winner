@@ -1,9 +1,9 @@
-from
-
 from flask import Flask
 from flask import render_template
 from flask import request
-
+from flask import jsonify
+from football_api import *
+import datetime
 import numpy as np
 import pickle
 from sklearn.neural_network import MLPClassifier
@@ -15,19 +15,49 @@ app = Flask(__name__)
 @app.route('/', methods=('GET', 'POST'))
 def register():
     """To run this web application:
-        1) Input the following into the command line in the directory with test.py
+        1) Input the following into the command line in the directory with app.py
             a) for mac:
                 i) "export FLASK_APP=hello.py"
                 ii) "flask run"
             b) for windows on command prompt:
-                i) C:\path\to\app>set FLASK_APP=test.py
+                i) C:\path\to\app>set FLASK_APP=app.py
+                ii) "flask run"
             c) for windows on power shell
                 i) PS C:\path\to\app> $env:FLASK_APP = "hello.py"
+                ii) "flask run"
         2) Head over to the URL "http://127.0.0.1:5000/"
 
         Input something in the box and click "submit". The new screen rendered is the input
         (demonstrating use of request.form)."""
+
     if request.method == 'POST':
+        print('get')
+        # 1-indexed, so 2=february not march
+        month_string = request.args.get('month')
+        year_string = request.args.get('year')
+        if month_string and year_string:
+            month_num = 1
+            year_num = 2018
+            now = datetime.datetime.now()
+            current_year = now.year
+            try:
+                month_num = int(month_string)
+                year_num = int(year_string)
+            except ValueError:
+                return jsonify({})
+            print(0 <= (year_num-current_year) <= 1)
+            print(year_num)
+            print(current_year)
+            # make sure month and year are valid
+            if (not (1 <= month_num <= 12)) or (not (0 <= (year_num-current_year) <= 1)):
+                return jsonify({})
+
+            return jsonify({"month num": month_string})
+        else:
+            return jsonify({})
+
+    # updates the table whenever a GET request is made. from our pinger on uptimerobot, should be pinged 1x/day
+    if request.method == 'GET':
 
         """
         X must be an array of shape (x, 23), where x is the number of games and 23 is the number of features we have
@@ -60,15 +90,14 @@ def register():
         The following is a placeholder X
         """
 
-        X = np.zeros((1, 23))
+        x = np.zeros((1, 23))
 
         # loading pickled model
         with open("model.pkl", "rb") as f:
             clf = pickle.load(f)
 
-        pred = clf.predict(X)
+        pred = clf.predict(x)
 
-        input = request.form['input']
-        return(input)
+        return jsonify({})
     else:
         return render_template('start.html')
