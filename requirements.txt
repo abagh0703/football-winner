@@ -35,5 +35,3 @@ urllib3==1.23
 uuid==1.30
 Werkzeug==0.14.1
 win10toast==0.8
-win32core==221.28
-win32gui==221.5
