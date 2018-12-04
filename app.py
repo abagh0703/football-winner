@@ -50,7 +50,9 @@ def register():
             last_day_num = 31
             matches_data = get_matches_within(format_date_string(year_num, month_num, day_num),
                                               format_date_string(year_num, month_num, last_day_num))
-            return jsonify(matches_data)
+            resp = jsonify(matches_data)
+            resp.headers.add('Access-Control-Allow-Origin', '*')
+            return resp
             # return jsonify({"month num": month_num})
         else:
             return jsonify({})
