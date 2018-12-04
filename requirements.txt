@@ -8,3 +8,4 @@ numpy==1.15.2
 pip==18.0
 scikit_learn==0.20.1
 xgboost==0.81
+gunicorn==19.9
