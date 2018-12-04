@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b0f59d4-5dcb-4151-a3cd-f00d0c8795be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/football_api.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sportswizz/API.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_app/model.pkl" afterPath="$PROJECT_DIR$/model.pkl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_app/templates/start.html" afterPath="$PROJECT_DIR$/templates/start.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_app/test.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/neuralnet.py" afterPath="$PROJECT_DIR$/models/neuralnet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/away_goals.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/home_goals.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predict.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/football_api.py" afterPath="$PROJECT_DIR$/football_api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/linear_goal_model.py" afterPath="$PROJECT_DIR$/models/linear_goal_model.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +34,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="60" column="58" lean-forward="false" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="58" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -43,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accumulate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helper_scripts/accumulate.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -73,67 +76,135 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/start.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ideas.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ideas.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="football_api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/football_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="223" column="30" lean-forward="false" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1543787257537" expanded="true" signature="1773:1855" ph="INSERT INTO matches... " />
+                <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
+                <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
+                <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
+                <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
+                <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
+                <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
+                <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
+                <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
+                <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
+                <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
+                <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
+                <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
+                <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
+                <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
+                <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/df1cf89f-8df5-472a-aea2-6abd93c9a365/console.sql">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neuralnet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/neuralnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linear_goal_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/linear_goal_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="predict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/predict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-252">
+              <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get</find>
+      <find>fetchall</find>
+      <find>score</find>
+      <find>normalize_team_name</find>
+      <find>get_computed_table_row</find>
+      <find>view ple</find>
+      <find>execute</find>
+      <find>insert</find>
+      <find>insert</find>
+      <find>,</find>
+      <find>commit</find>
+      <find>cur.comm</find>
+      <find>delta</find>
+      <find>strf</find>
+      <find>commit(</find>
+      <find>cur.exec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,6 +217,13 @@
         <option value="$PROJECT_DIR$/test_app/test.py" />
         <option value="$PROJECT_DIR$/test_app/football_api.py" />
         <option value="$PROJECT_DIR$/test_app/app.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/predict.py" />
+        <option value="$PROJECT_DIR$/models/linear_goal_model.py" />
+        <option value="$PROJECT_DIR$/football_api.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -189,6 +267,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="football-winner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="football-winner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="football-winner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="football-winner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -198,9 +304,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="PostgreSQL" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abagh\Downloads\football-winner\models" />
       <recent name="C:\Users\abagh\Downloads\football-winner" />
       <recent name="C:\Users\abagh\Downloads\football-winner\test_app" />
       <recent name="C:\Users\abagh\Downloads\football-winner\test_app\db" />
@@ -419,8 +527,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26126608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -442,7 +550,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -497,7 +607,44 @@
           <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="74" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543787257537" expanded="true" signature="1773:1855" ph="INSERT INTO matches... " />
+            <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
+            <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
+            <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
+            <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
+            <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
+            <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
+            <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
+            <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
+            <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
+            <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
           </folding>
         </state>
       </provider>
@@ -545,7 +692,44 @@
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543787257537" expanded="true" signature="1773:1855" ph="INSERT INTO matches... " />
+            <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
+            <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
+            <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
+            <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
+            <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
+            <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
+            <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
+            <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
+            <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
+            <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
           </folding>
         </state>
       </provider>
@@ -593,7 +777,44 @@
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543787257537" expanded="true" signature="1773:1855" ph="INSERT INTO matches... " />
+            <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
+            <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
+            <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
+            <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
+            <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
+            <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
+            <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
+            <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
+            <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
+            <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
           </folding>
         </state>
       </provider>
@@ -663,24 +884,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/football_api.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543787257537" expanded="true" signature="1773:1855" ph="INSERT INTO matches... " />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/adodbapi/adodbapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="950" column="23" lean-forward="false" selection-start-line="950" selection-start-column="23" selection-end-line="950" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="60" column="58" lean-forward="false" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="58" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/home_goals.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/sklearn/utils/mocking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/neuralnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/linear_goal_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/football_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="223" column="30" lean-forward="false" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
+            <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
+            <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
+            <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
+            <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
+            <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
+            <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
+            <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
+            <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
+            <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
+            <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
+            <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

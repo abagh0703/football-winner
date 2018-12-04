@@ -12,6 +12,7 @@ from sklearn.linear_model import LinearRegression
 
 
 feature_cols = [26, 28, 30, 83, 84, 87, 88, 113, 114, 117, 118]
+# home win prob, draw prob, away prob,
 label_col = 5
 
 file = "../data/base_data.xlsx"
