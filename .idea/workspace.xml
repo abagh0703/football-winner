@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b0f59d4-5dcb-4151-a3cd-f00d0c8795be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/away_goals.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/home_goals.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predict.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/football_api.py" afterPath="$PROJECT_DIR$/football_api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/linear_goal_model.py" afterPath="$PROJECT_DIR$/models/linear_goal_model.py" />
-    </list>
+    <list default="true" id="1b0f59d4-5dcb-4151-a3cd-f00d0c8795be" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
