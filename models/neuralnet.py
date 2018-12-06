@@ -17,8 +17,8 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
 
 
-
 feature_cols = [26, 28, 30, 71, 72, 73, 78, 79, 80, 105, 106, 107, 108, 109, 110, 83, 84, 87, 88, 113, 114, 117, 118]
+#               0   1   2   3   4    5   6  7    8   9    10   11   12   13   14  15  16  17  18  19    20   21   22
 label_col = 7
 
 file = "../data/base_data.xlsx"

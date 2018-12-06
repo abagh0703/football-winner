@@ -48,8 +48,8 @@ def register():
             else:
                 day_num = 1
             last_day_num = 31
-            matches_data = get_matches_within(format_date_string(year_num, month_num, day_num),
-                                              format_date_string(year_num, month_num, last_day_num))
+            matches_data = get_matches_preds_within(format_date_string(year_num, month_num, day_num),
+                                                    format_date_string(year_num, month_num, last_day_num))
             resp = jsonify(matches_data)
             resp.headers.add('Access-Control-Allow-Origin', '*')
             return resp
@@ -59,9 +59,15 @@ def register():
 
     # updates the table whenever a GET request is made. from our pinger on uptimerobot, should be pinged 1x/day
     if request.method == 'GET':
+        # update_matches_table('2015-09-15', '2018-09-15')
+        # # update_matches_table('2015-09-01', '2018-12-04')
+        # return "success"
         today = datetime.datetime.now()
         two_days_ago = today + datetime.timedelta(days=-2)
+        five_days_ahead = today + datetime.timedelta(days=5)
         today_full = format_date_string(today.year, today.month, today.day)
+        five_days_ahead_full = format_date_string(five_days_ahead.year, five_days_ahead.month, five_days_ahead.day)
         past_full = format_date_string(two_days_ago.year, two_days_ago.month, two_days_ago.day)
-        update_matches_table(past_full, today_full)
+        # update_matches_table(past_full, today_full)
+        update_matches_table(past_full, five_days_ahead_full)
         return "success"

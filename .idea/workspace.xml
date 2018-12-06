@@ -4,6 +4,9 @@
     <list default="true" id="1b0f59d4-5dcb-4151-a3cd-f00d0c8795be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/football_api.py" afterPath="$PROJECT_DIR$/football_api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/neuralnet.py" afterPath="$PROJECT_DIR$/models/neuralnet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/predict.py" afterPath="$PROJECT_DIR$/predict.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +33,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            <state relative-caret-position="-602">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -39,111 +42,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="concatenate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helper_scripts/concatenate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api-dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helper_scripts/api-dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1041">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="football_api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/football_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4116">
-              <caret line="223" column="30" lean-forward="false" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
+            <state relative-caret-position="183">
+              <caret line="512" column="34" lean-forward="false" selection-start-line="512" selection-start-column="34" selection-end-line="512" selection-end-column="34" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
-                <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
-                <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
-                <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
-                <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
-                <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
-                <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
-                <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
-                <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
-                <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
-                <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
-                <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
-                <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
-                <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
-                <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
+                <element signature="e#951#1906#0" expanded="false" />
+                <element signature="e#1987#2681#0" expanded="false" />
+                <element signature="e#2776#3307#0" expanded="false" />
+                <element signature="e#4804#8046#0" expanded="false" />
+                <element signature="e#8089#8404#0" expanded="false" />
+                <element signature="e#8464#9004#0" expanded="false" />
+                <element signature="e#9133#9353#0" expanded="false" />
+                <element signature="e#9587#11707#0" expanded="false" />
+                <element signature="e#14235#15153#0" expanded="false" />
+                <marker date="1544065416034" expanded="true" signature="3354:3385" ph="SELECT 20 FR... matches" />
+                <marker date="1544065416034" expanded="true" signature="3354:3395" ph="SELECT () FR... home_teams" />
+                <marker date="1544065416034" expanded="true" signature="3354:3405" ph="SELECT * FRO... matches" />
+                <marker date="1544065416034" expanded="true" signature="4817:4850" ph="DROP TABLE p... " />
+                <marker date="1544065416034" expanded="true" signature="4870:4903" ph="DROP TABLE p... " />
+                <marker date="1544065416034" expanded="true" signature="4923:6450" ph="CREATE OR RE... home_teams" />
+                <marker date="1544065416034" expanded="true" signature="4981:6450" ph="SELECT sub.m... *" />
+                <marker date="1544065416034" expanded="true" signature="5988:6390" ph="SELECT *, CA... matches" />
+                <marker date="1544065416034" expanded="true" signature="6472:7999" ph="CREATE OR RE... away_teams" />
+                <marker date="1544065416034" expanded="true" signature="6530:7999" ph="SELECT sub.m... *" />
+                <marker date="1544065416034" expanded="true" signature="7537:7939" ph="SELECT *, CA... matches" />
+                <marker date="1544065416034" expanded="true" signature="8778:8843" ph="SELECT * FRO... " />
+                <marker date="1544065416034" expanded="true" signature="8778:8845" ph="SELECT * FRO... " />
+                <marker date="1544065416034" expanded="true" signature="16091:17613" ph="INSERT INTO matches... " />
+                <marker date="1544065416034" expanded="true" signature="16091:18436" ph="INSERT INTO matches... " />
+                <marker date="1544065416034" expanded="true" signature="18487:20209" ph="INSERT INTO matches... " />
+                <marker date="1544065416034" expanded="true" signature="21038:21084" ph="SELECT 1 FRO... predictions" />
+                <marker date="1544065416034" expanded="true" signature="21038:21142" ph="SELECT 1 FRO... predictions" />
+                <marker date="1544065416034" expanded="true" signature="21038:21159" ph="SELECT 1 FRO... predictions" />
+                <marker date="1544065416034" expanded="true" signature="21038:21164" ph="SELECT 1 FRO... predictions" />
+                <marker date="1544065416034" expanded="true" signature="22405:22433" ph="SELECT * FRO... matches" />
+                <marker date="1544065416034" expanded="true" signature="22405:22442" ph="SELECT * FRO... matches" />
+                <marker date="1544065416034" expanded="true" signature="22405:22464" ph="SELECT * FRO... matches" />
+                <marker date="1544065416034" expanded="true" signature="26039:26063" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26071" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26141" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26192" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26243" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26294" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26345" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26396" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26449" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26502" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26555" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:26606" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27256" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27323" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27357" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27361" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27370" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27372" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27440" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27507" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27556" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27580" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:27722" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:28456" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26039:28511" ph="INSERT INTO predictions... " />
+                <marker date="1544065416034" expanded="true" signature="26051:26063" ph="SELECT 1 FRO... predictions" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name="betting_odds.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/betting_odds.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="-224">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file leaf-file-name="quick_and_dirty.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/quick_and_dirty.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="neuralnet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/neuralnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+            <state relative-caret-position="-329">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/models/linear_goal_model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -162,8 +145,8 @@
       <file leaf-file-name="predict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="226">
+              <caret line="104" column="19" lean-forward="true" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -182,22 +165,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get</find>
-      <find>fetchall</find>
-      <find>score</find>
-      <find>normalize_team_name</find>
-      <find>get_computed_table_row</find>
-      <find>view ple</find>
-      <find>execute</find>
-      <find>insert</find>
-      <find>insert</find>
-      <find>,</find>
-      <find>commit</find>
-      <find>cur.comm</find>
-      <find>delta</find>
-      <find>strf</find>
-      <find>commit(</find>
-      <find>cur.exec</find>
+      <find>get_betting</find>
+      <find>raw_odd</find>
+      <find>temp</find>
+      <find>str(temp</find>
+      <find>l20_avg</find>
+      <find>predict</find>
+      <find>odd</find>
+      <find>do update</find>
+      <find>on conflic</find>
+      <find>do update set</find>
+      <find>on conflict</find>
+      <find>_x</find>
+      <find>INTO matches Values</find>
+      <find>matches</find>
+      <find>todo</find>
+      <find>victo</find>
+      <find>str</find>
+      <find>1 / od</find>
+      <find>60</find>
+      <find>60 *</find>
+      <find>* 10</find>
+      <find>60 *</find>
+      <find>dict</find>
+      <find>str)</find>
+      <find>has</find>
+      <find>victor</find>
+      <find>print</find>
+      <find>pred_stats</find>
+      <find>one_week_</find>
+      <find>one_week_ago</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,11 +208,13 @@
         <option value="$PROJECT_DIR$/test_app/football_api.py" />
         <option value="$PROJECT_DIR$/test_app/app.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/predict.py" />
         <option value="$PROJECT_DIR$/models/linear_goal_model.py" />
-        <option value="$PROJECT_DIR$/football_api.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/models/nn_goal_model.py" />
+        <option value="$PROJECT_DIR$/models/neuralnet.py" />
+        <option value="$PROJECT_DIR$/predict.py" />
+        <option value="$PROJECT_DIR$/football_api.py" />
         <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
@@ -271,20 +270,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="football-winner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="football-winner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,14 +499,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30464327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24390244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -600,44 +586,64 @@
           <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="74" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
-            <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
-            <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
-            <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
-            <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
-            <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
-            <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
-            <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
-            <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
-            <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
+            <element signature="e#951#1906#0" expanded="false" />
+            <element signature="e#1987#2681#0" expanded="false" />
+            <element signature="e#2776#3307#0" expanded="false" />
+            <element signature="e#4804#8046#0" expanded="false" />
+            <element signature="e#8089#8404#0" expanded="false" />
+            <element signature="e#8464#9004#0" expanded="false" />
+            <element signature="e#9133#9353#0" expanded="false" />
+            <element signature="e#9587#11707#0" expanded="false" />
+            <element signature="e#14235#15153#0" expanded="false" />
+            <marker date="1544065416034" expanded="true" signature="3354:3385" ph="SELECT 20 FR... matches" />
+            <marker date="1544065416034" expanded="true" signature="3354:3395" ph="SELECT () FR... home_teams" />
+            <marker date="1544065416034" expanded="true" signature="3354:3405" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="4817:4850" ph="DROP TABLE p... " />
+            <marker date="1544065416034" expanded="true" signature="4870:4903" ph="DROP TABLE p... " />
+            <marker date="1544065416034" expanded="true" signature="4923:6450" ph="CREATE OR RE... home_teams" />
+            <marker date="1544065416034" expanded="true" signature="4981:6450" ph="SELECT sub.m... *" />
+            <marker date="1544065416034" expanded="true" signature="5988:6390" ph="SELECT *, CA... matches" />
+            <marker date="1544065416034" expanded="true" signature="6472:7999" ph="CREATE OR RE... away_teams" />
+            <marker date="1544065416034" expanded="true" signature="6530:7999" ph="SELECT sub.m... *" />
+            <marker date="1544065416034" expanded="true" signature="7537:7939" ph="SELECT *, CA... matches" />
+            <marker date="1544065416034" expanded="true" signature="8778:8843" ph="SELECT * FRO... " />
+            <marker date="1544065416034" expanded="true" signature="8778:8845" ph="SELECT * FRO... " />
+            <marker date="1544065416034" expanded="true" signature="16091:17613" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="16091:18436" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="18487:20209" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="21038:21084" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21142" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21159" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21164" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="22405:22433" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="22405:22442" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="22405:22464" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="26039:26063" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26071" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26141" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26192" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26243" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26294" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26345" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26396" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26449" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26502" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26555" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26606" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27256" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27323" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27357" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27361" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27370" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27372" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27440" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27507" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27556" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27580" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27722" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:28456" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:28511" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26051:26063" ph="SELECT 1 FRO... predictions" />
           </folding>
         </state>
       </provider>
@@ -685,44 +691,64 @@
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
-            <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
-            <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
-            <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
-            <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
-            <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
-            <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
-            <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
-            <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
-            <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
+            <element signature="e#951#1906#0" expanded="false" />
+            <element signature="e#1987#2681#0" expanded="false" />
+            <element signature="e#2776#3307#0" expanded="false" />
+            <element signature="e#4804#8046#0" expanded="false" />
+            <element signature="e#8089#8404#0" expanded="false" />
+            <element signature="e#8464#9004#0" expanded="false" />
+            <element signature="e#9133#9353#0" expanded="false" />
+            <element signature="e#9587#11707#0" expanded="false" />
+            <element signature="e#14235#15153#0" expanded="false" />
+            <marker date="1544065416034" expanded="true" signature="3354:3385" ph="SELECT 20 FR... matches" />
+            <marker date="1544065416034" expanded="true" signature="3354:3395" ph="SELECT () FR... home_teams" />
+            <marker date="1544065416034" expanded="true" signature="3354:3405" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="4817:4850" ph="DROP TABLE p... " />
+            <marker date="1544065416034" expanded="true" signature="4870:4903" ph="DROP TABLE p... " />
+            <marker date="1544065416034" expanded="true" signature="4923:6450" ph="CREATE OR RE... home_teams" />
+            <marker date="1544065416034" expanded="true" signature="4981:6450" ph="SELECT sub.m... *" />
+            <marker date="1544065416034" expanded="true" signature="5988:6390" ph="SELECT *, CA... matches" />
+            <marker date="1544065416034" expanded="true" signature="6472:7999" ph="CREATE OR RE... away_teams" />
+            <marker date="1544065416034" expanded="true" signature="6530:7999" ph="SELECT sub.m... *" />
+            <marker date="1544065416034" expanded="true" signature="7537:7939" ph="SELECT *, CA... matches" />
+            <marker date="1544065416034" expanded="true" signature="8778:8843" ph="SELECT * FRO... " />
+            <marker date="1544065416034" expanded="true" signature="8778:8845" ph="SELECT * FRO... " />
+            <marker date="1544065416034" expanded="true" signature="16091:17613" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="16091:18436" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="18487:20209" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="21038:21084" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21142" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21159" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21164" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="22405:22433" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="22405:22442" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="22405:22464" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="26039:26063" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26071" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26141" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26192" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26243" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26294" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26345" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26396" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26449" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26502" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26555" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26606" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27256" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27323" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27357" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27361" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27370" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27372" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27440" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27507" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27556" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27580" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27722" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:28456" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:28511" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26051:26063" ph="SELECT 1 FRO... predictions" />
           </folding>
         </state>
       </provider>
@@ -770,44 +796,64 @@
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
-            <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
-            <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
-            <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
-            <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
-            <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
-            <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
-            <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
-            <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
-            <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
+            <element signature="e#951#1906#0" expanded="false" />
+            <element signature="e#1987#2681#0" expanded="false" />
+            <element signature="e#2776#3307#0" expanded="false" />
+            <element signature="e#4804#8046#0" expanded="false" />
+            <element signature="e#8089#8404#0" expanded="false" />
+            <element signature="e#8464#9004#0" expanded="false" />
+            <element signature="e#9133#9353#0" expanded="false" />
+            <element signature="e#9587#11707#0" expanded="false" />
+            <element signature="e#14235#15153#0" expanded="false" />
+            <marker date="1544065416034" expanded="true" signature="3354:3385" ph="SELECT 20 FR... matches" />
+            <marker date="1544065416034" expanded="true" signature="3354:3395" ph="SELECT () FR... home_teams" />
+            <marker date="1544065416034" expanded="true" signature="3354:3405" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="4817:4850" ph="DROP TABLE p... " />
+            <marker date="1544065416034" expanded="true" signature="4870:4903" ph="DROP TABLE p... " />
+            <marker date="1544065416034" expanded="true" signature="4923:6450" ph="CREATE OR RE... home_teams" />
+            <marker date="1544065416034" expanded="true" signature="4981:6450" ph="SELECT sub.m... *" />
+            <marker date="1544065416034" expanded="true" signature="5988:6390" ph="SELECT *, CA... matches" />
+            <marker date="1544065416034" expanded="true" signature="6472:7999" ph="CREATE OR RE... away_teams" />
+            <marker date="1544065416034" expanded="true" signature="6530:7999" ph="SELECT sub.m... *" />
+            <marker date="1544065416034" expanded="true" signature="7537:7939" ph="SELECT *, CA... matches" />
+            <marker date="1544065416034" expanded="true" signature="8778:8843" ph="SELECT * FRO... " />
+            <marker date="1544065416034" expanded="true" signature="8778:8845" ph="SELECT * FRO... " />
+            <marker date="1544065416034" expanded="true" signature="16091:17613" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="16091:18436" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="18487:20209" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="21038:21084" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21142" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21159" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21164" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="22405:22433" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="22405:22442" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="22405:22464" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="26039:26063" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26071" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26141" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26192" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26243" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26294" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26345" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26396" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26449" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26502" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26555" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26606" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27256" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27323" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27357" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27361" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27370" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27372" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27440" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27507" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27556" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27580" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27722" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:28456" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:28511" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26051:26063" ph="SELECT 1 FRO... predictions" />
           </folding>
         </state>
       </provider>
@@ -901,22 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/neuralnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/linear_goal_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -941,68 +971,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/football_api.py">
+    <entry file="file://$PROJECT_DIR$/get-pip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4116">
-          <caret line="223" column="30" lean-forward="false" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543922107444" expanded="true" signature="799:2137" ph="CREATE OR RE... home_teams" />
-            <marker date="1543922107444" expanded="true" signature="862:2137" ph="SELECT sub.m... *" />
-            <marker date="1543922107444" expanded="true" signature="1675:2077" ph="SELECT *, CA... matches" />
-            <marker date="1543922107444" expanded="true" signature="2177:3515" ph="CREATE OR RE... away_teams" />
-            <marker date="1543922107444" expanded="true" signature="2240:3515" ph="SELECT sub.m... *" />
-            <marker date="1543922107444" expanded="true" signature="3053:3455" ph="SELECT *, CA... matches" />
-            <marker date="1543922107444" expanded="true" signature="4258:4323" ph="SELECT * FRO... " />
-            <marker date="1543922107444" expanded="true" signature="4258:4325" ph="SELECT * FRO... " />
-            <marker date="1543922107444" expanded="true" signature="5857:5939" ph="INSERT INTO matches... " />
-            <marker date="1543922107444" expanded="true" signature="7401:7447" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7505" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7522" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="7401:7527" ph="SELECT 1 FRO... predictions" />
-            <marker date="1543922107444" expanded="true" signature="10723:10747" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10755" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10801" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10828" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10855" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10882" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10909" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10960" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:10989" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11018" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11047" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11098" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11128" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11193" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11227" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11231" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11240" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11242" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11286" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11353" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11402" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11426" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11544" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10723:11573" ph="INSERT INTO predictions... " />
-            <marker date="1543922107444" expanded="true" signature="10735:10747" ph="SELECT 1 FRO... predictions" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/linear_goal_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/nn_goal_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/quick_and_dirty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/neuralnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/mbym-simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/gbtree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/betting_odds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="226">
+          <caret line="104" column="19" lean-forward="true" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/football_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="512" column="34" lean-forward="false" selection-start-line="512" selection-start-column="34" selection-end-line="512" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#951#1906#0" expanded="false" />
+            <element signature="e#1987#2681#0" expanded="false" />
+            <element signature="e#2776#3307#0" expanded="false" />
+            <element signature="e#4804#8046#0" expanded="false" />
+            <element signature="e#8089#8404#0" expanded="false" />
+            <element signature="e#8464#9004#0" expanded="false" />
+            <element signature="e#9133#9353#0" expanded="false" />
+            <element signature="e#9587#11707#0" expanded="false" />
+            <element signature="e#14235#15153#0" expanded="false" />
+            <marker date="1544065416034" expanded="true" signature="3354:3385" ph="SELECT 20 FR... matches" />
+            <marker date="1544065416034" expanded="true" signature="3354:3395" ph="SELECT () FR... home_teams" />
+            <marker date="1544065416034" expanded="true" signature="3354:3405" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="4817:4850" ph="DROP TABLE p... " />
+            <marker date="1544065416034" expanded="true" signature="4870:4903" ph="DROP TABLE p... " />
+            <marker date="1544065416034" expanded="true" signature="4923:6450" ph="CREATE OR RE... home_teams" />
+            <marker date="1544065416034" expanded="true" signature="4981:6450" ph="SELECT sub.m... *" />
+            <marker date="1544065416034" expanded="true" signature="5988:6390" ph="SELECT *, CA... matches" />
+            <marker date="1544065416034" expanded="true" signature="6472:7999" ph="CREATE OR RE... away_teams" />
+            <marker date="1544065416034" expanded="true" signature="6530:7999" ph="SELECT sub.m... *" />
+            <marker date="1544065416034" expanded="true" signature="7537:7939" ph="SELECT *, CA... matches" />
+            <marker date="1544065416034" expanded="true" signature="8778:8843" ph="SELECT * FRO... " />
+            <marker date="1544065416034" expanded="true" signature="8778:8845" ph="SELECT * FRO... " />
+            <marker date="1544065416034" expanded="true" signature="16091:17613" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="16091:18436" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="18487:20209" ph="INSERT INTO matches... " />
+            <marker date="1544065416034" expanded="true" signature="21038:21084" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21142" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21159" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="21038:21164" ph="SELECT 1 FRO... predictions" />
+            <marker date="1544065416034" expanded="true" signature="22405:22433" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="22405:22442" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="22405:22464" ph="SELECT * FRO... matches" />
+            <marker date="1544065416034" expanded="true" signature="26039:26063" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26071" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26141" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26192" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26243" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26294" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26345" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26396" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26449" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26502" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26555" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:26606" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27256" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27323" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27357" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27361" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27370" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27372" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27440" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27507" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27556" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27580" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:27722" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:28456" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26039:28511" ph="INSERT INTO predictions... " />
+            <marker date="1544065416034" expanded="true" signature="26051:26063" ph="SELECT 1 FRO... predictions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="-602">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
