@@ -242,16 +242,22 @@ def calc_weighted_average(first_val, first_occur, second_val, second_occur):
 
 
 def get_betting_odds(start_interval, end_interval):
+    print('in betting odds method')
     from_string = '&from=' + start_interval.strftime('%Y-%m-%d')
     to_string = '&to=' + end_interval.strftime('%Y-%m-%d')
     r = requests.get(betting_url + from_string + to_string + API_STRING, timeout=(60 * MINUTES_TO_WAIT))
+    print('finished request')
     if not r.ok:
         print('odds error: ' + r.status_code)
         return {}
+    print('its ok')
     s = json.dumps(r.json())
+    print('json dump')
     h = html.unescape(s)
     h1 = h.replace(" FC", "")
+    print('about to load')
     raw_odds = json.loads(h1)
+    print('loaded')
     """ match id (string) key
         {
         '26631' : 
@@ -291,6 +297,7 @@ def get_betting_odds(start_interval, end_interval):
             'draw_prob': calc_weighted_average(draw_prob, 1, current_match_odds['draw_prob'], num_bets),
             'bets': num_bets + 1
         }
+    print('finishes parsing odds and added to list')
     return avg_odds
 
 
@@ -299,23 +306,34 @@ def update_matches_table(start_date, end_date):
     from_string = '&from=' + start_date
     to_string = '&to=' + end_date
     conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+    print('connected to database')
     cur = conn.cursor()
+    print('got cursor')
     r = requests.get(url + from_string + to_string + API_STRING, timeout=(60 * MINUTES_TO_WAIT))
+    print('made request')
     s = json.dumps(r.json())
+    print('json dump')
     h = html.unescape(s)
+    print('unescape')
     h1 = h.replace(" FC", "")
+    print('replace')
     json_data = json.loads(h1)
+    print('json load')
     # conn = psycopg2.connect(dbname="Sportswizz", user="postgres", password="1qaz2wsx")
     bad_request = False
     start_date_obj = datetime.datetime.strptime(start_date, '%Y-%m-%d')
     end_date_obj = datetime.datetime.strptime(end_date, '%Y-%m-%d')
     start_interval = start_date_obj
     end_interval = start_date_obj + datetime.timedelta(days=5)
+    print('about to get betting odds')
     betting_data = get_betting_odds(start_interval, end_interval)
+    print('got betting odds first time')
     start_interval = end_interval + datetime.timedelta(days=1)
     end_interval = start_interval + datetime.timedelta(days=5)
     while end_date_obj > start_interval:
+        print('running betting loop')
         betting_data = {**betting_data, **(get_betting_odds(start_interval, end_interval))}
+        print('got betting odds again')
         start_interval = end_interval + datetime.timedelta(days=1)
         end_interval = start_interval + datetime.timedelta(days=5)
         print("next: ")
