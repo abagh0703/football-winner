@@ -48,6 +48,8 @@ def register():
             else:
                 day_num = 1
             last_day_num = 31
+            # setting day_num to 1 lets us get past games also, so we can show graphs about them
+            day_num = 1
             matches_data = get_matches_preds_within(format_date_string(year_num, month_num, day_num),
                                                     format_date_string(year_num, month_num, last_day_num))
             resp = jsonify(matches_data)

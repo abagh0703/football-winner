@@ -523,8 +523,8 @@ def get_matches_preds_within(start_date, end_date):
             bad_request = True
             break
         # we only want games that haven't started yet
-        if item['match_status'] == 'FT':
-            continue
+        # if item['match_status'] == 'FT':
+        #     continue
         temp = [item[field] for field in fields]
         temp.append(json.dumps(item))
         match_id = item['match_id']
