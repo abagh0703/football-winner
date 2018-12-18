@@ -528,7 +528,6 @@ def get_matches_preds_within(start_date, end_date):
         temp = [item[field] for field in fields]
         temp.append(json.dumps(item))
         match_id = item['match_id']
-        # TODO remove force update
         one_week_ago = datetime.datetime.now() + datetime.timedelta(days=1)
         one_week_ago = one_week_ago.strftime('%Y-%m-%d')
         cur.execute("SELECT * FROM predictions WHERE last_updated >= '" + one_week_ago +
