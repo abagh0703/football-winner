@@ -1,0 +1,11 @@
+Flask==1.0.2
+setuptools==40.2.0
+pandas==0.23.4
+psycopg2==2.7.6.1
+wheel==0.29.0
+requests==2.19.1
+numpy==1.15.2
+pip==18.0
+scikit_learn==0.20.1
+xgboost==0.81
+gunicorn==19.9
