@@ -1,4 +1,5 @@
 # football-winner
+A website to show predictions for upcoming Football (called Soccer in America) games. This is no longer maintained.
 
 # quick_and_dirty.py
 This is our first pass at a VERY basic model, just to get our feet wet.
